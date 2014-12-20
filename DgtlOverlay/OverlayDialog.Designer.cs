@@ -103,6 +103,7 @@
 			this.Name = "OverlayDialog";
 			this.ShowIcon = false;
 			this.ShowInTaskbar = false;
+			this.TopMost = true;
 			this.Deactivate += new System.EventHandler(this.OverlayDialog_Leave);
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OverlayDialog_FormClosing);
 			((System.ComponentModel.ISupportInitialize)(pictureLogo)).EndInit();
